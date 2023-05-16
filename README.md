@@ -10,3 +10,6 @@ Download package
 npm i discord.js@12.5.3 dotenv
 
 / / / / / / / / / /
+
+Twitter @_nagipoyo
+twitter.com/_nagipoyo
