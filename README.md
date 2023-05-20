@@ -16,8 +16,6 @@ npm i discord.js@12.5.3 dotenv
 
 / / / / / / / / / /
 
-**制作者**
-\
-Twitter @_nagipoyo
+制作者｜Twitter @_nagipoyo
 \
 https://twitter.com/_nagipoyo
