@@ -4,7 +4,7 @@ module.exports = client => {
 
 client.on("voiceStateUpdate", async(oldState, newState) => {
   if (newState && oldState) {
-    const channel = client.channels.cache.get(process.env.logs)
+    const channel = client.channels.cache.get(process.env.log)
 
     if (oldState.channelID === null && newState.channelID != null) {
       const guild = newState.guild
