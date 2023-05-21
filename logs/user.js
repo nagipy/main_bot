@@ -4,7 +4,7 @@ module.exports = client => {
 
 client.on("guildMemberUpdate", async (oldMember, newMember) => {
 
-  const channel = client.channels.cache.get(process.env.user)
+  const channel = client.channels.cache.get(process.env.log)
 
   if (oldMember.nickname !== newMember.nickname) {
     const embed = new MessageEmbed()
