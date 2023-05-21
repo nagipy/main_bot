@@ -3,7 +3,7 @@ const { MessageEmbed } = require("discord.js")
 module.exports = client => {
   
 client.on("guildMemberAdd", async(member) => {
-  const channel = client.channels.cache.get(process.env.lobby)
+  const channel = client.channels.cache.get(process.env.log)
 
   const embed = new MessageEmbed()
   .setColor("GREEN")
@@ -15,7 +15,7 @@ client.on("guildMemberAdd", async(member) => {
 })
 
 client.on("guildMemberRemove", async(member) => {
-  const channel = client.channels.cache.get(process.env.lobby)
+  const channel = client.channels.cache.get(process.env.log)
 
   const embed = new MessageEmbed()
   .setColor("RED")
