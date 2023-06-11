@@ -4,7 +4,6 @@
 
 必要パッケージ
 discord.js v12.5.3
+dotenv
 
-Replit , Glitchを使わない場合は、 dotenv が必要になります。
-\
-書き方によっては config ファイルの作成で実行できると思います。(dotenvは使いやすいから使ってるだけです。)
+npm i discord.js@12.5.3 dotenv
