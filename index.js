@@ -4,8 +4,7 @@ const client = new Client()
 
 client.on("ready", () => {
  console.log(`login ${client.user.tag}`)
- 
- // online(オンライン) idle(退席中) dnd(取り込み中) invisible(オフライン)
+
  client.user.setPresence({
   status: "online",
   activity: {
